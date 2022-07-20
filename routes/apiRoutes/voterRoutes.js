@@ -1,5 +1,4 @@
 const express = require('express');
-const { resourceLimits } = require('worker_threads');
 const router = express.Router();
 const db = require('../../db/connection');
 const inputCheck = require('../../utils/inputCheck');
